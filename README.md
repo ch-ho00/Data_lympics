@@ -22,7 +22,12 @@ Given a large dataset of financial transactions of customers , how do we predict
 
 ## Detail of Project
 #### 1. Receive Data
-
+     
+     Csv file containing 20k+ rows.
+     Data contains 20 features which are
+        ['InvoiceAmount', 'DocumentNo', 'PaymentDocumentNo', 'InvoiceItemDesc', 'ReferenceDocumentNo', 'duration', 'InvoiceDesc', \
+        'Vendor 00332', 'UserName', 'TransactionCode', 'Vendor 01089', 'Vendor 00415', 'Period', 'Vendor 01024', 'Vendor 00070',  \
+        'CompanyCode', 'TransactionCodeDesc', 'Vendor 01689', 'PO_FLag', 'Vendor 01532']
 #### 2. Convert data into computable form
 
     Filling missing data with median data
